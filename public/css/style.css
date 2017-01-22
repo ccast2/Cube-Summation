@@ -82,3 +82,13 @@ input {
     background: #002728;
     color: white;
 }
+.matrix {
+    position: absolute;
+    right: 0;
+    color: white;
+    padding: 16px;
+}
+
+.matrix .col {
+  float: left;
+}

@@ -7,6 +7,7 @@
      <link rel="stylesheet" type="text/css" href="css/style.css">
  </head>
  <body ng-app="RappiApp"  ng-controller="RappiController">
+
  <form ng-submit="submit();">
  <div class=" terminal ">
   <p class=" terminal--header ">Last login: Sun Sep 15 11:11:50 on ttys000</p>
@@ -27,7 +28,7 @@
   <p class=" terminal--output is-not-defined "></p>
   <p class=" terminal--output is-console "></p>
   <p class=" terminal--output ">(^C again to quit)</p> -->
-  <p class=" terminal--input "><input type="text" ng-model="input"></p>
+  <p class=" terminal--input "><input type="text" ng-model="input" ng-disabled = "disabled" focus-me="!input"></p>
 </div>
 </form>
  </body>

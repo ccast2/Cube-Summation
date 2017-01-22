@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('hello', 'CubeSumation@index');
+Route::post('CreateMatrix', 'CubeSumation@CreateMatrix');
+Route::post('CreateTestCases', 'CubeSumation@CreateTestCases');
+Route::post('executeQuery', 'CubeSumation@executeQuery');
