@@ -1,4 +1,4 @@
-# Cube Sumation with Laravel PHP Framework
+# Cube Sumation con Laravel PHP Framework
 
 
 
@@ -8,3 +8,6 @@
 $ composer install
 
 ```
+## Autor
+
+Carlos Andres Castellanos
